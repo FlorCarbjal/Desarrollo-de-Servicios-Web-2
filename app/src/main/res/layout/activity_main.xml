@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Inputs para ejercicio 1 -->
+    <EditText
+        android:id="@+id/edadInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese edad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/sexoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese sexo (Hombre/Mujer)" />
+
+    <Button
+        android:id="@+id/calcularJubilacionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Jubilación" />
+
+    <TextView
+        android:id="@+id/resultadoJubilacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <!-- Inputs para ejercicio 2 -->
+    <EditText
+        android:id="@+id/numero1Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/numero2Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/numero3Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 3"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/numero4Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 4"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calcularMenorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Menor" />
+
+    <TextView
+        android:id="@+id/resultadoMenor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <!-- Inputs para ejercicio 3 -->
+    <EditText
+        android:id="@+id/materiasInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de materias"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calcularMatriculaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Matrícula" />
+
+    <TextView
+        android:id="@+id/resultadoMatricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <!-- Botón para ejercicio 4 -->
+    <Button
+        android:id="@+id/calcularCuadradoMitadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Cuadrado y Mitad (15 a 70)" />
+
+    <TextView
+        android:id="@+id/resultadoCuadradoMitad"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:padding="8dp" />
+</LinearLayout>
